@@ -1,5 +1,9 @@
 from typing import List
 
+"""
+    Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
+"""
+
 # My first solution:
 def my_has_duplicate(self, nums: List[int]) -> bool:
 
@@ -11,7 +15,7 @@ def my_has_duplicate(self, nums: List[int]) -> bool:
             return True
     return False
 
-# Other solutions:
+# --------------------Other solutions:------------- #
 
 # Hash Set Length
 def has_duplicate_1(self, nums: List[int]) -> bool:
